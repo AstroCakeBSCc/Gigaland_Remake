@@ -1,0 +1,29 @@
+:root{
+  --white-color:#fff;
+  --black-color:#000;
+  --text-color:#a2a2a2;
+  --primary-color: #403f83;
+  --primary-color-rgb: 64, 63, 131;
+  --secondary-color: #8364E2;
+  --secondary-color-rgb: 131, 100, 226;
+}
+*{
+  box-sizing: inherit;
+}
+html{
+  font-size: 62.5%;
+  line-height:1.6rem;
+  font-family: 'DM Sans', sans-serif;
+  box-sizing: border-box;
+}
+.main{
+  overflow:hidden;
+}
+::placeholder {
+  color:var(--white-color);
+  opacity: 1; /* Firefox */
+  line-height: 13px;
+}
+.clear{
+  clear: both;
+}
