@@ -20,6 +20,7 @@
   border-radius: 20px;
   box-shadow: 0 0 5px rgba(0,0,0,0.2);
   display: block;
+  text-decoration: none;
 }
 .content__connect-img{
   background-size:cover ;
@@ -343,4 +344,57 @@
 }
 .content__seller-link:hover{
   border: 5px solid var(--secondary-color);
+}
+/* guide */
+.content__guide{
+  padding-bottom: 50px;
+}
+.content__guide-wrap{
+  padding: 50px;
+  background-color: #26292d;
+  border-radius:5px;
+  box-shadow: 0 0 5px rgba(0,0,0,0.2);
+  position: relative;
+  overflow: hidden;
+}
+.content__guide-background-icon{
+  position: absolute;
+  font-size: 240px;
+  background: none;
+  width: auto;
+  height: auto;
+  color: rgba(131, 100, 226, .5);
+  right: 0;
+  top: 30%;
+  opacity: 0.2;
+  transition:all ease 0.7s ;
+}
+.content__guide-icon{
+  font-size:3rem;
+  color: var(--white-color);
+  padding: 10px;
+  background-color: var(--secondary-color);
+  border-radius:5px;
+}
+.content__guide-text{
+  font-size:2rem;
+  font-weight: 600;
+  display: block;
+  color: var(--white-color);
+  padding: 30px 0 10px;
+}
+.content__guide-sub{
+  font-size:1.5rem;
+  color: var(--text-color);
+  line-height: 1.7;
+  letter-spacing:0.5px;
+}
+.content__guide-wrap:hover .content__guide-sub{
+  color: var(--white-color);
+}
+.content__guide-wrap:hover .content__guide-background-icon{
+  -webkit-transform: rotate(-25deg);
+  -moz-transform: rotate(-25deg);
+  -o-transform: rotate(-25deg);
+  transform: rotate(-25deg);
 }

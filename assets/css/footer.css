@@ -1,0 +1,105 @@
+.footer{
+  padding-top: 100px;
+  background-color: #26292d;
+  border-top: 1px solid #424344 ;
+  box-shadow: 0 0 5px rgba(0,0,0,0.5);
+  padding-bottom:100px;
+}
+.footer__container{
+  max-width: 1300px;
+  margin: auto;
+}
+.footer__title{ 
+  font-size: 2rem;
+  font-weight: 600;
+  color:var(--white-color);
+  display: block;
+  padding-bottom: 10px;
+}
+.footer__item{
+  list-style: none;
+  padding: 0;
+}
+.footer__list{
+  padding: 7px 0;
+}
+.footer__link{
+  font-size: 1.6rem;
+  color: var(--text-color);
+  text-decoration: none;
+}
+.footer__link:hover{
+  color: var(--secondary-color);
+}
+.footer__text{
+  font-size: 1.6rem;
+  color: var(--text-color);
+  display: block;
+  padding-top: 10px;
+}
+.footer__form{
+  padding: 20px 0;
+  display: flex;
+  align-items: center;
+}
+.footer__input{
+  background: rgba(255, 255, 255, .1);
+  font-size: 1.6rem;
+  padding: 10px;
+  border: none;
+  color: var(--white-color);
+  outline: none;
+  width:80%;
+  border-top-left-radius: 15pt;
+  border-bottom-left-radius: 15pt;
+}
+.footer__form-link{
+  text-decoration: none;
+  width: 20%;
+  padding: 10px;
+  background-color: var(--secondary-color);
+  text-align: center;
+  border-top-right-radius: 15pt;
+  border-bottom-right-radius: 15pt;
+}
+.footer__form-icon{
+  font-size: 1.6rem;
+  color: var(--white-color);
+}
+.footer__confirm{
+  font-size: 1.4rem;
+  color:var(--text-color);
+}
+/* Copyright */
+.copyright{
+  padding: 30px;
+  background-color: #26292d;
+  border-top: 1px solid #424344 ;
+  box-shadow: 0 0 5px rgba(0,0,0,0.5);
+}
+.copyright__container{
+  max-width: 1300px;
+  margin: auto;
+  display:flex;
+  align-items: center;
+  justify-content:space-between;
+}
+.copyright__text-content{
+  font-size:1.6rem;
+  color: var(--text-color);
+}
+.copyright__social-link{
+  text-decoration: none;
+  padding: 0 3px;
+}
+.copyright__social-icon{
+  font-size: 1.4rem;
+  padding: 11px;
+  color: var(--white-color);
+  background-color: #403f83;
+  border-radius: 5px;
+}
+.copyright__social-icon:hover{
+  color: #403f83;
+  background-color: var(--white-color);
+}
